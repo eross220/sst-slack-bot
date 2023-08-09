@@ -1,0 +1,17 @@
+{
+  "name": "@sst-slackbot-backend/core",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "sst bind vitest",
+    "typecheck": "tsc -noEmit"
+  },
+  "devDependencies": {
+    "vitest": "^0.34.1",
+    "@types/node": "^20.4.8",
+    "sst": "^2.23.13"
+  },
+  "dependencies": {
+    "zod": "^3.21.4"
+  }
+}
